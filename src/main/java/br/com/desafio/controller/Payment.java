@@ -13,8 +13,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Payment {
-    @JsonProperty("client_id")
-    private String clientId;
+    @JsonProperty("vendor_id")
+    private String vendorId;
     @JsonProperty("payment_items")
     private List<PaymentItem> paymentItems;
 }
